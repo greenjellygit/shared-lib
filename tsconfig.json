@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@jelly/layout-lib": [
+        "dist/jelly/layout-lib/jelly-layout-lib",
+        "dist/jelly/layout-lib"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
