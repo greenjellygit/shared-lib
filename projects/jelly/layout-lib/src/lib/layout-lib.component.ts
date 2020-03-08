@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'jel-layout-lib',
   template: `
-    <p>
-      layout-lib works!
+    <p class="test">
+      layout-lib works!!!
     </p>
   `,
-  styles: []
+  styleUrls: ['./layout-lib.component.scss']
 })
 export class LayoutLibComponent implements OnInit {
 
